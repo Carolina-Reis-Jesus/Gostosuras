@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    /* CSS HEX */
+    --prussian-blue: #003049ff;
+    --fire-engine-red: #d62828ff;
+    --orange-wheel: #f77f00ff;
+    --xanthous: #fcbf49ff;
+  }
+  /* parte com o globo */
+  #hrs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  hr {
+    width: 700px;
+  }
+  
+  #globo-footer {
+    margin-left: 450px;
+    width: 100px;
+  }
+  
+  footer {
+    height: 20vh;
+    background: rgba(0, 47, 73, 0.952);
+  }
+  
+  /* frase entre em contato */
+  
+  #entre-em-contato {
+    background: #003049ff;
+    margin-top: 20px;
+  }
+  
+  #entre-em-contato p {
+    text-align: center;
+    color: #fff;
+    font-family: Lora;
+    font-size: 20px;
+  }
+  
+  /* logo footer */
+  
+  .logo-footer {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: white;
+  }
+  
+  .logo-footer img {
+    height: 20px;
+    transform: rotate(308deg);
+    margin-top: -5px;
+    margin-left: 9px;
+  }
+  
+  .logo-footer a span {
+    font-family: Merienda;
+    font-size: 30px;
+    color: white;
+  }
+  
+  /* icones entre em contato */
+  
+  .contato {
+    display: flex;
+    margin-left: 103rem;
+    margin-top: -1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contato-footer {
+    display: flex;
+  }
+  
+  .contato i {
+    display: flex;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #000000;
+    transition: 0.3s;
+  }
+  
+  .whatsapp i:hover {
+    color: green;
+  }
+  
+  .instagram i:hover {
+    color: var(--xanthous);
+  }
+  
+  .github i:hover {
+    color: #ffffffe3;
+  }
+  .email i:hover {
+    color: rgb(218, 54, 25);
+  }
+  
+  /* comunicação */
+  .comunicacao a p {
+    margin-left: 104.5rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #000;
+    transition: 0.5s;
+  }
+  
+  .comunicacao a p:hover {
+    border-bottom: 1px solid var(--orange-wheel);
+    color: #fff;
+  }
+  
+  .comunicacao .anuncio a i {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 103rem;
+    margin-top: 2px;
+    color: #000;
+  }
+  
+  .comunicacao .error a i {
+    display: flex;
+    margin-top: -1rem;
+    margin-left: 6rem;
+    font-size: 15px;
+    align-items: center;
+    color: #000;
+    transition: 0.5s;
+  }
+  
+  .error a p {
+    margin-top: -1rem;
+    margin-left: 5px;
+    font-family: Montserrat;
+    color: #000;
+  }
+  
+  /* informações das desenvolvedoras */
+  .dev {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 15px;
+  }
